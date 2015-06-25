@@ -1,3 +1,3 @@
 #/bin/bash
 
-dnf install -y  emacs tmux zsh  
+sudo dnf install -y  emacs tmux zsh  
