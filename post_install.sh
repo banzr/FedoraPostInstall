@@ -1,3 +1,9 @@
 #/bin/bash
 
-sudo dnf install -y  emacs tmux zsh  
+#install 
+sudo dnf install -y  emacs tmux zsh p7zip mplayer
+
+
+#create directory tree
+mkdir ~/Workspace
+
