@@ -7,7 +7,7 @@ sudo dnf update
 ### Repositories
 
 # RPMFusion
-su -c 'yum install --nogpgcheck \
+su -c 'dnf install -y --nogpgcheck \
 http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E\
  %fedora).noarch.rpm http://download1.rpmfusion.org/nonfree/fedora/rpmfusi\
 on-nonfree-release-$(rpm -E %fedora).noarch.rpm'
