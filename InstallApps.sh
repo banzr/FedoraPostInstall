@@ -10,7 +10,7 @@ sudo dnf update
 su -c 'yum install --nogpgcheck \
 http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E\
  %fedora).noarch.rpm http://download1.rpmfusion.org/nonfree/fedora/rpmfusi\
-on-nonfree-release-$(rpm -E %fedora).noarch.rpm'/
+on-nonfree-release-$(rpm -E %fedora).noarch.rpm'
 
 # Google
 su -c 'cat << EOF > /etc/yum.repos.d/google-chrome.repo
