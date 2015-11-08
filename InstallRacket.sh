@@ -7,6 +7,6 @@ tar xzvf $HOME/Downloads/racket-6.2.1-src.tgz
 cd $HOME/Downloads/racket-6.2.1/src
 mkdir build
 cd build
-../configure
+./configure
 make
 make install
