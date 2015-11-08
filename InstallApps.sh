@@ -32,7 +32,7 @@ sudo dnf groupinstall -y 'Development Tools' 'Fedora Eclipse' \
 'Engineering and Scientific'
 
 ### Apps
-sudo dnf install -y \
+su -c 'dnf install -y \
 google-chrome-stable \
 unrar \
 p7zip \
@@ -48,7 +48,7 @@ snes9x \
 yumex-dnf \
 mariadb-server \
 httpd \
-php php-mysql
+php php-mysql'
 
 ## Guide to setup LAMP
 google-chrome-stable https://www.atlantic.net/community/howto/install-lamp-fedora-22/
