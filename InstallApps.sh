@@ -23,13 +23,12 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 EOF'
 
 # Numix
-dnf copr -y enable satya164/numix
+su -c 'dnf copr -y enable satya164/numix'
 
-sudo dnf update
+su -c 'dnf update'
 
 ### Group Install
-sudo dnf groupinstall -y 'Development Tools' 'Fedora Eclipse' \
-'Engineering and Scientific'
+su -c 'dnf groupinstall -y 'Development Tools' 'Fedora Eclipse' 'Engineering and Scientific''
 
 ### Apps
 su -c 'dnf install -y \
@@ -38,8 +37,6 @@ unrar \
 p7zip \
 pithos \
 gnome-tweak-tool \
-numix-icon-theme-circle \
-https://github.com/atom/atom/releases/download/v1.1.0/atom.x86_64.rpm \
 vlc \
 steam \
 nautilus-open-terminal \
